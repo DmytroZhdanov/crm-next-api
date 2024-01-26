@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "summary_stats",
+  "info": {
+    "singularName": "summary-stat",
+    "pluralName": "summary-stats",
+    "displayName": "Summary stat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "promotions": {
+      "type": "integer",
+      "min": 0,
+      "required": true
+    },
+    "categories": {
+      "type": "integer",
+      "min": 0,
+      "required": true
+    },
+    "newCompanies": {
+      "type": "integer",
+      "min": 0,
+      "required": true
+    },
+    "activeCompanies": {
+      "type": "integer",
+      "min": 0,
+      "required": true
+    }
+  }
+}
